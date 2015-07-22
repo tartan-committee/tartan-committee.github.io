@@ -16,22 +16,48 @@ img {
 	display: inline-block;
 }
 
+h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #d70000;
+	font-weight: bold;
+	font-size: 85px;
+	line-height: 90px;
+}
+
 h3 {
 	font-size: 24px;
 	line-height: 48px;
+}
+
+h4 {
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #4b4a4a;
+	font-size: 16px;
+	position: absolute;
+}
+
+.img-text {
+	background-color: rgba(255, 255, 255, 0.5);;
+	padding: 10px;
 }
 
 p {
 	font-size: 16px;
 	line-height: 32px;
 }
+
 #topnav {
 	position: fixed;
 	top: 0;
 	height: 50px;
 	width: 100%;
 	background-color: black;
-	opacity: .8;
+	opacity: .9;
 	z-index: 99;
 }
 
@@ -49,9 +75,10 @@ p {
 	color: white;
 	overflow: hidden;
 }
+
 .img-wrapper {
-	height: 100%;
-	background-color: white;
+	background-color: #bebebe;
+	position: relative;
 }
 
 .pane-button {
