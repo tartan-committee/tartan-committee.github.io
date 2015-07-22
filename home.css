@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'QuickType';
+	src:
+		local('QuickType II'),
+		url('fonts/QT2_B.tff')
+		format('truetype');
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'QuickType';
+}
+
+img {
+	display: inline-block;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 48px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 32px;
+}
+#topnav {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	opacity: .8;
+	z-index: 99;
+}
+
+#main-content {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+	z-index: -1;
+}
+
+.pane {
+	background-color: #141414;
+	padding: 5% 20% 5% 20%;
+	color: white;
+	overflow: hidden;
+}
+.img-wrapper {
+	height: 100%;
+	background-color: white;
+}
+
+.pane-button {
+	background-color: #d70000;
+	right:0;
+	padding: 15px;
+	text-align: center;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.pane-button:hover {
+	cursor: pointer;
+	background-color: #ff0000;
+}
