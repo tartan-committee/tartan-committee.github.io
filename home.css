@@ -122,3 +122,22 @@ p {
 .button:active {
 	background-color: #c60000
 }
+
+#disable-screen {
+	display: none;
+}
+
+@media only screen and (max-width: 1000px){
+	.pane {
+		display: none;
+	}
+	#main-content {
+		display: none;
+	}
+	#topnav {
+		display: none;
+	}
+	#disable-screen {
+		display: block;
+	}
+}
