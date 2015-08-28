@@ -1,0 +1,112 @@
+html, body {
+	height: 100%;
+	margin: 0;
+
+	/* Theme */
+	background: #65000c;
+	color: white;
+}
+
+/* Rows */
+.heading-title {
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+.basic-row {
+	padding: 0 20% 0 20%;
+}
+
+/* Cols */
+.col-2 {
+	float: left;
+	width: 50%;
+}
+
+/* Text */
+p {
+	font-family: Myriad Pro;
+	font-size: 20px;
+	margin: 3px 0 3px 0;
+}
+
+#header-logo {
+	font-family: Lithos Pro;
+	font-size: 50px;
+}
+
+#subheader {
+	font-style: italic;
+	font-size: 14px;
+}
+
+/* Other */
+#dog {
+	float: right;
+	width: 200px;
+	padding-right: 10%;
+}
+
+.form-wrapper {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	margin-top: 50px;
+}
+
+#school-dropdown {
+	color: white;
+	font-family: Myriad Pro;
+	font-size: 20px;
+	padding: 7px;
+	background-color: #ce6161;
+	border: 0;
+	border-radius: 2px;
+	width: 254px;
+}
+
+#school-dropdown option {
+	outline: 0;
+	color: white;
+}
+
+#school-dropdown:focus {
+	outline: 0;
+	border: white;
+}
+
+#join {
+	background-color: black;
+	border-radius: 2px;
+	text-align: center;
+	padding: 7px;
+	width: 240px;
+	margin-top: 6px;
+}
+
+#join p {
+	margin: 0;
+}
+
+/* Mobile-friendly */
+@media only screen and (max-width: 480px) {
+	body {
+		padding: 40px;
+	}
+	.heading-title {
+		padding: 0;
+		text-align: center;
+	}
+
+	.basic-row {
+		padding: 0;
+	}
+	.col-2 {
+		float: none;
+	}
+	
+	#dog {
+		display: none;
+	}
+}
