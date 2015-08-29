@@ -7,6 +7,42 @@ html, body {
 	color: white;
 }
 
+/* Topnav */
+.topnav {
+	text-align: center;
+	background-color: black;
+}
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-right: 5%;
+}
+
+li {
+	float: right;
+	display: inline;
+	font-size: 14px;
+	padding: 15px;
+	font-family: Myriad Pro;
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+
+}
+
+li:hover {
+	cursor: pointer; cursor: hand;
+	background-color: #202020;	
+}
+
+#topnav-logo {
+	font-family: Lithos Pro, Myriad Pro;
+	font-size: 24px;
+	text-align: left;
+	margin-left: 5%;
+	position: absolute;
+	padding: 10px 0 10px 0;
+}
+
 /* Rows */
 .heading-title {
 	padding: 80px 0 80px 0;
@@ -14,25 +50,70 @@ html, body {
 }
 
 .basic-row {
-	padding: 0 20% 0 20%;
+	padding: 0 15% 0 15%;
+}
+
+.dashboard-row {
+	margin: 1% 15% 1% 15%;
+	padding: 20px;
+	background-color: white;
+	overflow: hidden;
+	color: black; /*#838383;*/
 }
 
 /* Cols */
-.col-2 {
+.modal-box {
+	width: 50%;
+	margin: auto;
+	background-color: white;
+	padding: 5%;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-8 {
+	float: left;
+	width: 66.6%;
+}
+
+.col-6 {
 	float: left;
 	width: 50%;
 }
 
+.col-4 {
+	float: left;
+	width: 33.3%;
+}
+
 /* Text */
-p {
+p, input {
 	font-family: Myriad Pro;
-	font-size: 20px;
+	font-size: 18px;
+	margin: 3px 0 3px 0;
+}
+
+.dashboard-row h2 {
+	font-family: Myriad Pro;
+	font-size: 24px;
 	margin: 3px 0 3px 0;
 }
 
 #header-logo {
-	font-family: Lithos Pro;
+	font-family: Lithos Pro, Myriad Pro;
 	font-size: 50px;
+}
+
+.heading-p {
+	font-family: Myriad Pro;
+	font-size: 50px;
+	color: black; /*#838383;*/
+	font-weight: bold;
+	text-align: left;
 }
 
 #subheader {
@@ -62,13 +143,14 @@ p {
 	padding: 7px;
 	background-color: #ce6161;
 	border: 0;
-	border-radius: 2px;
+	border-radius: 5px;
 	width: 254px;
 }
 
 #school-dropdown option {
 	outline: 0;
-	color: white;
+	color: black;
+	background-color: white;
 }
 
 #school-dropdown:focus {
@@ -76,26 +158,53 @@ p {
 	border: white;
 }
 
-#join {
+/* Buttons */
+.button {
 	background-color: black;
 	border-radius: 2px;
 	text-align: center;
 	padding: 7px;
 	width: 240px;
 	margin-top: 6px;
+	border: none;
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
 }
 
-#join p {
+.button p {
 	margin: 0;
 }
 
+.input-box {
+	margin-top: 6px;
+	padding: 7px;
+	width: 70%;
+	float: left;
+	border: none;
+	background-color: #d9d9d9;
+}
+
+#play {
+	float: right;
+}
+
+#mission {
+	color: white;
+	float: left;
+	width: 20%;
+	margin-left: 1%;
+}
+.button:hover {
+	cursor: pointer;
+	cursor: hand;
+	background-color: #202020;
+}
+
 /* Mobile-friendly */
-@media only screen and (max-device-width: 640px) {
+@media only screen and (max-width: 640px) {
 	body {
 		padding: 40px;
 	}
 	.heading-title {
-		padding: 0;
 		text-align: center;
 	}
 
@@ -105,7 +214,12 @@ p {
 	.col-2 {
 		float: none;
 	}
-	
+	.form-wrapper {
+		width: 100%;
+	}
+	#join {
+		width: 100%;
+	}
 	#dog {
 		display: none;
 	}
