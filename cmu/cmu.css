@@ -26,7 +26,6 @@ li {
 	padding: 15px;
 	font-family: Myriad Pro;
 	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
-
 }
 
 li:hover {
@@ -101,6 +100,14 @@ p, input {
 	font-family: Myriad Pro;
 	font-size: 24px;
 	margin: 3px 0 3px 0;
+	font-weight: bold;
+}
+
+.dashboard-row h3 {
+	font-family: Myriad Pro;
+	font-size: 16px;
+	margin: 1px 0 1px 0;
+	font-weight: bold;
 }
 
 #header-logo {
@@ -128,6 +135,7 @@ p, input {
 	padding-right: 10%;
 }
 
+/* Inputs */ 
 .form-wrapper {
 	margin-left: 10px;
 	display: inline-block;
@@ -158,6 +166,14 @@ p, input {
 	border: white;
 }
 
+.input-box {
+	margin-top: 6px;
+	padding: 7px;
+	width: 70%;
+	float: left;
+	border: none;
+	background-color: #d9d9d9;
+}
 /* Buttons */
 .button {
 	background-color: black;
@@ -170,21 +186,26 @@ p, input {
 	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
 }
 
+.dashboard-row .button {
+	color: white;
+}
+
 .button p {
 	margin: 0;
 }
 
-.input-box {
-	margin-top: 6px;
-	padding: 7px;
-	width: 70%;
-	float: left;
-	border: none;
-	background-color: #d9d9d9;
-}
-
 #play {
 	float: right;
+}
+
+.spykit {
+	float: left;
+	padding: 7px;
+	margin: 6px 0 6px 0;
+}
+
+.button.spykit {
+	background-color: #989898;
 }
 
 #mission {
