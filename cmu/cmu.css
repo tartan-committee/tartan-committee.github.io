@@ -98,7 +98,7 @@ p, input {
 
 .dashboard-row h2 {
 	font-family: Myriad Pro;
-	font-size: 24px;
+	font-size: 28px;
 	margin: 3px 0 3px 0;
 	font-weight: bold;
 }
@@ -125,7 +125,22 @@ p, input {
 
 #subheader {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
+}
+
+/* Table */
+table {
+	font-family: Myriad Pro;
+	font-size: 18px;
+	text-align: center;
+}
+
+.leaderboard {
+	width: 100%;
+}
+
+th {
+	padding: 5px 25px 5px 25px;
 }
 
 /* Other */
