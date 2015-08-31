@@ -4,15 +4,23 @@
 	<link rel="stylesheet" type="text/css" href="cmu.css">
 </head>
 <body>
-<!-- 	<div class="topnav">
-		<div id="topnav-logo">Clash of the Tartans</div>
-		<ul id="topnav-list">
-			<li>MY MISSION</li>
-			<li>LEADERBOARD</li>
-			<li>TOP</li>
-		</ul>
-		<div style="display:block; clear:both;"></div>
-	</div> -->
+	<a href="#open-modal" style="float: right; padding-right: 15px">Open Modal</a>
+	<div id="open-modal" class="modal-background">
+		<div class="modal-dialog">
+			<a href="#close" title="close" class="close">x</a>
+			<div style="margin:40px">
+				<h1>Join the battle!</h1><br>
+				<h3>Verify that you go to CMU:</h3>
+				<form action="">
+					<input class="input-box" type="text" name="id" placeholder="andrewID">
+					<p class="spykit">@andrew.cmu.edu</p>
+				</form>
+				<div style="display:block; clear:both;"></div><br>
+
+				<div class="button" id="sign-up"><p>Sign Up</p></div><br>
+			</div>
+		</div>
+	</div>
 	<div class="dashboard-row">
 		<div class="col-4">
 			image goes here
@@ -56,6 +64,11 @@
 					<th>Target's Name</th>
 					<th>andrewID</th>
 					<th>House</th>
+				</tr>
+				<tr>
+					<td>Jane Smith</td>
+					<td>jasmith</td>
+					<td>Stever</td>
 				</tr>
 				<tr>
 					<td>Jane Smith</td>
