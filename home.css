@@ -9,7 +9,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: 'QuickType';
+	font-family: 'QuickType', Myriad Pro, Arial, sans-serif;
+	color: #f4f4f4;
 }
 
 img {
@@ -26,7 +27,6 @@ h1 {
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #d70000;
 	font-weight: bold;
 	font-size: 100px;
 	width: 800px;
@@ -35,8 +35,11 @@ h1 {
 	padding-bottom: 3px !important;
 }
 
+.logo {
+	border: 5px white solid;
+	border-radius: 1px;
+}
 h2 {
-	color: white;
 	font-weight: bold;
 	font-size: 80px;
 	text-align: left;
@@ -51,7 +54,6 @@ h4 {
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #4b4a4a;
 	font-size: 16px;
 	position: absolute;
 }
@@ -80,7 +82,7 @@ p {
 
 #topnav-buttons {
 	float: right;
-	padding-right: 20px;
+	padding-right: 70px;
 	height: 100%;
 }
 .button-topnav {
@@ -108,10 +110,16 @@ p {
 	position: relative;
 	overflow: hidden;
 }
-.pane {
+.pane-gray {
 	background-color: #141414;
-	padding: 5% 20% 5% 20%;
+	padding: 5% 25% 5% 25%;
 	color: white;
+	overflow: hidden;
+}
+.pane-white {
+	background-color: #f4f4f4;
+	padding: 5% 25% 5% 25%;
+	color: black;
 	overflow: hidden;
 }
 
