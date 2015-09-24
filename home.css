@@ -68,16 +68,23 @@ h6 {
 	font-size: 32px;
 	margin: 0;
 }
-
+.blog-header {
+	color: #d70000;
+	font-size: 24px;
+	margin: 0;
+}
 p {
 	font-size: 16px;
 	line-height: 36px;
 	margin: 0;
 }
 
-.p-small {
-	font-size: 12px;
-	line-height: 14px;
+.blog-text, .blog-subtext {
+	font-size: 14px;
+	line-height: 24px;
+}
+.blog-subtext {
+	margin-left: 40px;
 }
 #topnav {
 	position: fixed;
