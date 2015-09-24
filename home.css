@@ -72,8 +72,13 @@ h6 {
 p {
 	font-size: 16px;
 	line-height: 36px;
+	margin: 0;
 }
 
+.p-small {
+	font-size: 12px;
+	line-height: 14px;
+}
 #topnav {
 	position: fixed;
 	top: 0;
