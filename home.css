@@ -33,10 +33,11 @@ h1 {
 	text-align: center;
 	padding: 15px !important;
 	padding-bottom: 3px !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .logo {
-	border: 5px white solid;
+	/*border: 5px white solid;*/
 	border-radius: 1px;
 }
 h2 {
@@ -56,6 +57,7 @@ h4 {
 	transform: translate(-50%, -50%);
 	font-size: 16px;
 	position: absolute;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Fancy headers */
